@@ -1,0 +1,143 @@
+@import url('base.css');
+
+header{
+    width: 100%;
+    height: 0.5rem;
+    background: #EC3B31;
+    overflow: hidden;
+}
+header>input{
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    margin: 0.1rem auto;
+    outline: none;
+    border:0;
+    border-radius: 5px;
+    padding-left:0.05rem;
+}
+#wrapper{
+    width: 100%;
+    height: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+#wrapper #scroller{
+    width:9.8rem ;
+    height: 100%;
+}
+#wrapper #scroller ul{
+    overflow: hidden;
+}
+#wrapper #scroller li{
+    width: 0.7rem;
+    height: 100%;
+    float:left;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+#wrapper #scroller  .active{
+    color:red;
+    font-size: 0.18rem;
+}
+main{
+    width:100%;
+    height: auto;
+    padding:0.05rem;
+    box-sizing: border-box;
+}
+main .xwlist{
+    width: 95%;
+    /*height: 1rem;*/
+    padding:0.02rem;
+    margin:0 auto;
+    overflow: hidden;
+    padding-bottom: 0.08rem;
+    padding-top: 0.08rem;
+    border-bottom: 1px solid #cccccc;
+}
+main .xwlist .xwtp{
+    width: 40%;
+    height: 1rem;
+    float:left;
+    overflow: hidden;
+    /*background: maroon;*/
+}
+main .xwlist .xwtp img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+main .xwlist .right {
+    width: 55%;
+    height: 100%;
+    float:left;
+    margin-left: 0.08rem;
+    /*background: red;*/
+}
+main .xwlist .rightwutu{
+    width: 100%;
+    height: 100%;
+    font-size: 0.16rem;
+}
+main .xwlist .rightwutu a{
+    color:#000;
+}
+main .xwlist .rightwutu .xwqt .xwsrc{
+    float:left;
+    font-size: 0.01rem;
+}
+main .xwlist .rightwutu .xwqt .xwtime{
+    float:left;
+    margin-left: 0.5rem;
+    font-size: 0.01rem;
+}
+main .xwlist .right .xwtitle{
+    width: 100%;
+    height: 60%;
+    float:left;
+    font-size: 0.16rem;
+    text-align: center;
+    /*background: blue;*/
+}
+main .xwlist .right .xwtitle a{
+    color:#000;
+
+}
+main .xwlist .right  .xwqt{
+    width: 100%;
+    height: 30%;
+    float:left;
+    margin-top: 0.3rem;
+    font-size: 0.1rem;
+    /*text-align: center;*/
+    /*background: orangered;*/
+}
+main .xwlist .right  .xwqt .xwsrc{
+    width: 45%;
+    height: 100%;
+    float:left;
+    font-size: 0.1rem;
+    line-height: 100%;
+    /*background: bisque;*/
+}
+main .xwlist .right  .xwqt .xwtime{
+    width: 55%;
+    height: 100%;
+    float:left;
+    font-size: 0.08rem;
+    line-height: 100%;
+    /*background: #aa0000;*/
+}
+main .jzgd{
+    width:0.8rem;
+    height: 0.2rem;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.2rem;
+    margin:0.2rem auto;
+    /*margin-top: 0.1rem;*/
+    border:1px solid #333;
+}
